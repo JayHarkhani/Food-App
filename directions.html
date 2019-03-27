@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Directions</title>
+	<link rel="stylesheet" type="text/css" href="css/directions.css">
+</head>
+<body  class="directions">
+	<form class="dir">
+		<div class="loc">
+			<label>Block Number</label><br>
+			<input type="text" name="Block Number" class="input">
+		</div>	
+		<div class="loc">
+			<label>Street Name</label><br>
+			<input type="text" name="Street Name" class="input">
+		</div>		
+		<div class="loc">
+			<label>City</label><br>
+			<input type="text" name="City" class="input">
+		</div>
+		<div class="loc">
+			<label>Country</label><br>
+			<input type="text" name="Country" class="input">
+		</div>
+		<div class="loc">
+			<label>Pin Number</label><br>
+			<input type="text" name="Pin Number" class="input">	
+		</div>
+		<div class="sub-form">
+							<a href="mode.html" target="_blank">
+					 		<button  id="btn" 
+					  		onmouseout="changecoloronmouseout()"
+						  	onmouseover="changecoloronmouseover()" class="input">Submit</button>
+					  		<script type="text/javascript">
+							  function changecoloronmouseout(){
+						 	var change=document.getElementById("btn")
+					 		change.style.background='pink';
+						 	change.style.color='black';
+					 }				  
+						 	function changecoloronmouseover(){
+					 		var change=document.getElementById("btn")
+					 		change.style.background='red';
+					 		change.style.color='yellow';
+					 }
+					  alert("Are You Sure You Want to Submit Your Address?") ;
+					  
+					 		</script>	
+							</a>
+						</div>
+	</form>
+</body>
+
+</html>

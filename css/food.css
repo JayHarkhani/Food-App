@@ -1,0 +1,98 @@
+.carters{
+	background-image: url(https://media.istockphoto.com/photos/shawarma-with-sauce-on-white-background-picture-id637060832);
+	background-size: cover;
+}
+.joeys{
+	background-image: url(https://bestwesternsedona.com/wp-content/uploads/2017/06/Italian-food-pizza.jpg);
+	background-size: cover;
+}
+.dominos{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-yjn0sNytBBTex0-X4OgslO-nM4ZLkwftIzWB0Ypg5rOI3eBl);
+	background-size: cover;
+}
+.mcdonalds{
+	background-image: url(https://static2.bigstockphoto.com/7/2/1/large1500/127049657.jpg);
+	background-size: cover;
+}
+#heading1{
+	color: red;
+	text-shadow: 4px 4px;
+	font-size: 100px;
+	text-align: center;
+}
+#heading2{
+	color:red ;
+	text-shadow: 4px 4px;
+	font-size: 100px;
+	text-align: center;
+
+}
+
+#heading3{
+	color:white ;
+	text-shadow: 4px 4px;
+	font-size: 100px;
+	text-align: center;
+
+}
+
+#heading4{
+	color:red ;
+	text-shadow: 4px 4px;
+	font-size: 100px;
+	text-align: center;
+
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	color: black;
+
+}
+ul li{
+	float: left;
+	width: 500px;
+	opacity: .8;
+	
+	text-align:center;
+	font-size: 60px;
+	
+}
+ul li a:hover
+{
+
+	background-color: green;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+ul li ul li{
+	opacity: .8;
+	display: none;
+	font-size:35px;
+	height: 50px;
+}
+ul li ul li ul li{
+	opacity: .8;
+	font-size: 25px;
+}
+ul li:hover ul li{
+	display: block;
+
+}
+
+ul li ul li a:hover{
+	background-color: red;
+}
+ul li:hover ul li ul li{
+	display: none;
+}
+ul li ul li:hover ul li{
+	display: block;
+}
+ul li ul li ul li a:hover{
+	background-color: grey;
+}

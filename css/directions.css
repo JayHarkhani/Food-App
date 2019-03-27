@@ -1,0 +1,27 @@
+#map{
+	text-decoration:none;
+	text-align:center;
+	font-size: 25px;
+	color: red;
+}
+#change{
+	color: black;
+	font-size: 25px;
+
+}
+.maps{
+	background-color: purple;
+}
+.directions{
+	background-color: green;
+	
+	font-size: 40px;
+	text-align: center;
+}
+.input{
+	font-size: 40px;
+}
+body{
+	background-image:url(https://www.vtexperts.com/wp-content/uploads/2016/07/google-map-background-1900x1170.png);
+	background-size: cover; 
+}

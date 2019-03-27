@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>googlelogin</title>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/google.css">
+</head>
+<body class="google">
+	<form action="insert.php" method="POST">
+		<div class="sub-container">
+						<div class="sub-form">
+							<label>Email id</label><br>
+							<input type="text" name="email" class="input" required>
+
+						</div>
+						<div class="sub-form">
+							<label>Password</label><br>
+							<input type="text" name="password" class="input" required> 
+						</div>	
+
+						<div class="sub-form"> 
+							<a href="secondpage.html" target="_self">
+					 		<button  id="btn" 
+					  		onmouseout="changecoloronmouseout()"
+						  	onmouseover="changecoloronmouseover()" class="input">Submit</button>
+					  		<script type="text/javascript">
+							  function changecoloronmouseout(){
+						 	var change=document.getElementById("btn")
+					 		change.style.background='pink';
+						 	change.style.color='black';
+					 }				  
+						 	function changecoloronmouseover(){
+					 		var change=document.getElementById("btn")
+					 		change.style.background='red';
+					 		change.style.color='yellow';
+					 }
+					  alert("Are You Sure You Want to Submit Your Details?") ;
+					  
+					 		</script>	
+							</a>
+						</div>
+		</div>				
+		 <script>
+							 	$('input').onkeyup(function(){
+							 		$(this).css('background','black')
+							 	});
+							 </script>	
+
+		</form>
+		</body>				 
+
+</html>
